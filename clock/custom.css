@@ -1,0 +1,30 @@
+.cir{
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color: darkcyan;
+    position: absolute;
+    top: 80%;
+    right: 50%;
+}
+.big{
+    top : 16%;
+    right: 35%;
+    animation: clock 60s linear  infinite;
+}
+img{
+    height: 50%;
+    width: 50%;
+}
+@keyframes clock{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.big:hover{
+    
+        -webkit-animation-play-state:paused;
+        -moz-animation-play-state:paused;
+        -o-animation-play-state:paused;
+        animation-play-state:paused;
+        cursor: pointer;
+      
+}

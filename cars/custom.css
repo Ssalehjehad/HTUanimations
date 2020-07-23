@@ -1,0 +1,46 @@
+body{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+
+}
+.size{
+    width: 300px;
+    position: relative;
+    top :700px;
+}
+.c1{
+    position: relative;
+    animation: car1 9s   ;
+}
+.c2{
+    position: relative;
+    animation: car2 5s  4s ;
+
+}
+.c3{
+    position: relative;
+    animation: car3 3s  6s ;
+
+}
+@keyframes car1{
+    0%{left: 0%;}
+    50%{left: 50%}
+    
+    100%{left: 100%;}
+
+}
+@keyframes car2{
+    0%{left: 0%;}
+    50%{left:50%}
+    100%{left: 100%;}
+
+}
+@keyframes car3{
+    0%{left: 0%;}
+    50%{left: 50%}
+    
+    100%{left: 100%;}
+
+}

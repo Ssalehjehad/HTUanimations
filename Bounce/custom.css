@@ -1,0 +1,13 @@
+h1{
+    color: rgba(2, 95, 95, 0.959);
+    text-align: center;
+    margin:300px 0 0 0 ;
+    animation: bounce 2s  ease-in-out infinite ;
+}
+@keyframes bounce {
+
+    60%{ transform: scale(1.5);}
+    
+    
+    100% {transform: scale(1);}
+}
